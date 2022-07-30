@@ -8,8 +8,8 @@
 import UIKit
 
 struct cellData {
-    var firstOperand: Float!
-    var secondOperand: Float!
+    var operand1: Float
+    var operand2: Float
     var result: Float
 }
 
@@ -22,14 +22,24 @@ class TableViewCell: UITableViewCell {
     @IBOutlet weak var stepper: UIStepper!
     @IBOutlet weak var firstOperand: UILabel!
     
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        firstOperand.text = "1.0000"
+        result.text = "1.0000"
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
     }
     
+    @IBAction func sliderDidSlide(_ sender: UISlider){
+        let value = sender.value
+        secondOperand.text = "\(value)"
+    }
+    
+    @objc func didTapButton(){
+        
+    }
 }
