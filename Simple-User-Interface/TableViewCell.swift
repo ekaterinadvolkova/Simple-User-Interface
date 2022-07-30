@@ -7,8 +7,21 @@
 
 import UIKit
 
+struct cellData {
+    var firstOperand: Float!
+    var secondOperand: Float!
+    var result: Float
+}
+
 class TableViewCell: UITableViewCell {
 
+    @IBOutlet weak var result: UILabel!
+    @IBOutlet weak var calculateButton: UIButton!
+    @IBOutlet weak var secondOperand: UILabel!
+    @IBOutlet weak var slider: UISlider!
+    @IBOutlet weak var stepper: UIStepper!
+    @IBOutlet weak var firstOperand: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -17,7 +30,6 @@ class TableViewCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
     }
     
 }

@@ -107,6 +107,14 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="calculateButton" destination="ZGN-jO-zDA" id="rKb-Y7-Xkq"/>
+                <outlet property="firstOperand" destination="3HN-Gh-AkD" id="Ztq-od-guH"/>
+                <outlet property="result" destination="etf-MA-hnR" id="cY0-il-cA0"/>
+                <outlet property="secondOperand" destination="fbE-x3-Fib" id="d5E-pV-1MT"/>
+                <outlet property="slider" destination="cI5-Sp-p1O" id="Yvj-da-4gZ"/>
+                <outlet property="stepper" destination="fpd-cZ-R0x" id="Psq-bG-nQl"/>
+            </connections>
             <point key="canvasLocation" x="257.24637681159425" y="151.00446428571428"/>
         </tableViewCell>
     </objects>
