@@ -30,6 +30,10 @@
                             </backgroundConfiguration>
                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </buttonConfiguration>
+                        <connections>
+                            <action selector="didTapButton:" destination="-2" eventType="valueChanged" id="GkH-rD-cxc"/>
+                            <action selector="didTapButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="txE-PK-rS7"/>
+                        </connections>
                     </button>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="etf-MA-hnR">
                         <rect key="frame" x="16" y="32" width="279" height="60"/>
@@ -54,6 +58,10 @@
                         <variation key="heightClass=regular-widthClass=compact">
                             <color key="tintColor" systemColor="systemOrangeColor"/>
                         </variation>
+                        <connections>
+                            <action selector="stepperDidStep:" destination="-2" eventType="valueChanged" id="lYU-UR-Zzz"/>
+                            <action selector="stepperDidStep:" destination="KGk-i7-Jjw" eventType="valueChanged" id="q8l-Ov-e0H"/>
+                        </connections>
                     </stepper>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.0000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3HN-Gh-AkD">
                         <rect key="frame" x="16" y="161" width="53" height="32"/>
@@ -67,7 +75,7 @@
                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="26.2766" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fbE-x3-Fib">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.0000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fbE-x3-Fib">
                         <rect key="frame" x="16" y="262" width="279" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
