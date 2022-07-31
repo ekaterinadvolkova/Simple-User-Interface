@@ -7,12 +7,6 @@
 
 import UIKit
 
-struct cellData {
-    var operand1: Float
-    var operand2: Float
-    var result: Float
-}
-
 class TableViewCell: UITableViewCell {
     
     @IBOutlet weak var result: UILabel!
