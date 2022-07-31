@@ -22,5 +22,6 @@
 <img src="https://user-images.githubusercontent.com/62830083/182025112-e58dbdef-932a-4fd4-bf72-62e2a86700d7.png" width="300" height="550" />
 
 ### Result on iPhone 13
-<img src="https://user-images.githubusercontent.com/62830083/182025259-8984e9c7-0eec-4148-b526-fc3332a2060f.PNG" width="250" height="580" />
+<img src="https://user-images.githubusercontent.com/62830083/182025259-8984e9c7-0eec-4148-b526-fc3332a2060f.PNG" width="250" height="580" /> <img src="https://user-images.githubusercontent.com/62830083/182025324-1eb701b4-2a4f-421f-ae4c-15c55fdface4.PNG" width="250" height="580" />
+
 
